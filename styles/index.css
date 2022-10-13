@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(253,146,150);
+}
+#HomeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Images{
+    width: 50%;
+}
