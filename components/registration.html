@@ -13,8 +13,31 @@
       <a class="Links" href="./dashboard.html">Dashboard &#9783;</a>
       <a class="Links" href="./vaccinated.html">Vaccinated &#9873;</a>
     </div>
-    <div>
-        Hello Registration
+    <div id="RegisterHome">
+        <form onsubmit="submit" id="formSub">
+          <input type="number" placeholder="Enter Unique ID"/>
+          <input type="text" placeholder="Enter Your Name"/>
+          <input type="number" placeholder="Enter Your Age"/>
+          <select>
+            <option value="#">Select Type</option>
+            <option value="Employee">Employee</option>
+            <option value="Student">Student</option>
+          </select>
+          <select>
+            <option value="#">Select Priority</option>
+            <option value="p0">p0</option>
+            <option value="p1">p1</option>
+            <option value="p2">p2</option>
+            <option value="p3">p3</option>
+          </select>
+          <select>
+            <option value="#">Select vaccine</option>
+            <option value="Covishield">Covishield</option>
+            <option value="Covaxin">Covaxin</option>
+            <option value="Sputnik">Sputnik</option>
+          </select>
+          <button class="SubButton" type="submit">Submit</button>
+        </form>
     </div>
   </body>
 </html>
